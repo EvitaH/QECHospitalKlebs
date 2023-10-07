@@ -47,3 +47,5 @@ Suggests:
     tidyverse,
     wesanderson
 VignetteBuilder: knitr
+URL: https://github.com/EvitaH/QECHospitalKlebs
+BugReports: https://github.com/EvitaH/QECHospitalKlebs/issues
