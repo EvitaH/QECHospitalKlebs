@@ -1,0 +1,70 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# QECHospitalKlebs
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The QECHKlebs R package is a repository for data generated and reproducible analysis scripts for the manuscripts arising from this study:
+
+[**Longitudinal analysis within one hospital in sub-Saharan Africa over 20 years reveals repeated replacements of dominant clones of Klebsiella pneumoniae and stresses the importance to include temporal patterns for vaccine design considerations**](https://www.medrxiv.org/content/10.1101/2023.09.26.23296137v1)
+
+Eva Heinz^1,2^, Oliver Pearse^2,3^, Allan Zuza^3^, Sithembile Bilima^3^, Chisomo Msefula^4^, Patrick Musicha^2,3^, Patriciah Siyabu^5^, Edith Tewesa^5^, Fabrice E Graf^2^, Rebecca Lester^3,6^, Samantha Lissauer^3,7^, Jennifer Cornick^3,7^, Joseph M Lewis^2,3,7^, Kondwani Kawaza^3,4^, Nicholas R Thomson^8,9^, Nicholas A Feasey^2,3,10^
+
+1. Department of Vector Biology, Liverpool School of Tropical Medicine, Liverpool, UK
+2. Department of Clinical Sciences, Liverpool School of Tropical Medicine, Liverpool, UK
+3. Malawi Liverpool Wellcome Programme, Kamuzu University of Health Sciences, Blantyre, Malawi
+4. Kamuzu University of Health Sciences, Blantyre, Malawi
+5. Queen Elizabeth Central Hospital, Blantyre, Malawi
+6. Division of Infection & Immunity, University College London, UK
+7. Department of Clinical Infection, Microbiology and Immunology, University of Liverpool, Liverpool, UK
+8. Parasites and Microbes Program, Wellcome Sanger Institute, Hinxton, UK
+9. London School of Hygiene and Tropical Medicine, London, UK
+10. School of Medicine, St Andrews University, UK
+
+
+Paper currently available as pre-print [here](https://www.medrxiv.org/content/10.1101/2023.09.26.23296137v1)
+
+## Installation
+
+If you just want the data, then all the data to replicate the analysis are bundled with the package. To install the package from GitHub:
+
+``` r
+# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+```
+
+The various data objects are described in the [pkgdown]() site for this package [here](index.html), and available via R in the usual way. They are all lazy loaded so will be available for use immediately.
+
+### Whole genome sequence accession numbers and metadata
+
+Reads from all isolates sequenced as part of this study have been depositied in the European Nucleotide Archive (ENA); accession numbers are available in the `_metadata` data frame, available on installing the package as above; as well as in Table S1 from the publication.
+
+### Analysis scripts
+
+The analysis scripts to reproduce tables and figures for each manuscript are available as package vignettes; these can be built when downloading the package by running:
+
+
+```{r analysis scripts}
+devtools::install_github(
+#  "https://github.com/     ", 
+  build_vignettes = TRUE, 
+  dependencies = TRUE )
+```
+
+The `dependencies = TRUE` option will install all the packages necessary to run the vignette.
+
+Most analyses performed for the manuscript are straightforward, but please note that running rPinecone might take a while on the larger data sets (especially the _K. pneumoniae subsp. pneumoniae_).
+

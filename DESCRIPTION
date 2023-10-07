@@ -1,12 +1,49 @@
 Package: QECHospitalKlebs
-Title: What the Package Does (One Line, Title Case)
+Title: Data and code repository for a study to understand longitudinal
+    population genomics of Klebsiella pneumoniae in Queen Elizabeth
+    Central Hospital, Blantyre, Malawi.
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Eva", "Heinz", , "eva.heinz7@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0003-4413-3756"))
+Description: Data and code repository for a study to understand
+    longitudinal population genomics of Klebsiella pneumoniae in Queen
+    Elizabeth Central Hospital, Blantyre, Malawi.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
+Suggests: 
+    ape,
+    bitops,
+    broman,
+    Cairo,
+    castor,
+    caTools,
+    cowplot,
+    ggalt,
+    ggnewscale,
+    ggplot2,
+    ggpubr,
+    ggtree,
+    knitr,
+    lavaan,
+    magick,
+    MetBrewer,
+    nationalparkcolors,
+    openxlsx,
+    pals,
+    patchwork,
+    phylotools,
+    phytools,
+    RColorBrewer,
+    readr,
+    readxl,
+    rmarkdown,
+    rPinecone,
+    splitstackshape,
+    stringr,
+    tidytree (== 0.4.2),
+    tidyverse,
+    wesanderson
+VignetteBuilder: knitr

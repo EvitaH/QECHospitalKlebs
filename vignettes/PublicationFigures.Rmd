@@ -1,0 +1,116 @@
+---
+title: "Analysis scripts: K. pneumoniae in QECH"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Analysis scripts: K. pneumoniae in QECH}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+
+
+```{r setup}
+library(QECHospitalKlebs)
+```
+
+
+
+
+
+## Introduction
+
+This document generates the tables and figures for the manuscript:
+
+<br />
+
+*Longitudinal analysis within one hospital in sub-Saharan Africa over 20 years reveals repeated replacements of dominant clones of _Klebsiella_ _pneumoniae_ and stresses the importance to include temporal patterns for vaccine design considerations*
+
+<br />
+
+Eva Heinz^1,2^, Oliver Pearse^2,3^, Allan Zuza^3^, Sithembile Bilima^3^, Chisomo Msefula^4^, Patrick Musicha^2,3^, Patriciah Siyabu^5^, Edith Tewesa^5^, Fabrice E Graf^2^, Rebecca Lester^3,6^, Samantha Lissauer^3,7^, Jennifer Cornick^3,7^, Joseph M Lewis^2,3,7^, Kondwani Kawaza^3,4^, Nicholas R Thomson^8,9^, Nicholas A Feasey^2,3,10^
+
+1. Department of Vector Biology, Liverpool School of Tropical Medicine, Liverpool, UK
+2. Department of Clinical Sciences, Liverpool School of Tropical Medicine, Liverpool, UK
+3. Malawi Liverpool Wellcome Programme, Kamuzu University of Health Sciences, Blantyre, Malawi
+4. Kamuzu University of Health Sciences, Blantyre, Malawi
+5. Queen Elizabeth Central Hospital, Blantyre, Malawi
+6. Division of Infection & Immunity, University College London, UK
+7. Department of Clinical Infection, Microbiology and Immunology, University of Liverpool, Liverpool, UK
+8. Parasites and Microbes Program, Wellcome Sanger Institute, Hinxton, UK
+9. London School of Hygiene and Tropical Medicine, London, UK
+10. School of Medicine, St Andrews University, UK
+
+
+## STs over time, wards over time
+
+```{r metadata over time}
+
+
+```
+
+
+
+## Antimicrobial resistance plots
+
+```{r AMR plots}
+
+
+```
+
+
+
+## Antimicrobial resistance and virulence over time
+
+```{r AMR VIR over time}
+
+
+```
+
+
+
+## Full ariba predictions mapped to trees
+
+```{r ariba trees}
+
+
+```
+
+
+
+
+## Clustering of closely related isolates, tree visualisations
+
+```{r rPineCone cluster}
+
+
+```
+
+
+
+
+## O- and K-type figures
+
+```{r O-K-types}
+
+
+```
+
+
+
+
+
+### Reproducability, session info
+
+```{r sessinfo}
+
+sessionInfo()
+
+```
+
