@@ -1,7 +1,7 @@
 Package: QECHospitalKlebs
 Title: Data and code repository for a study to understand longitudinal
     population genomics of Klebsiella pneumoniae in Queen Elizabeth
-    Central Hospital, Blantyre, Malawi.
+    Central Hospital, Blantyre, Malawi
 Version: 0.0.0.9000
 Authors@R: 
     person("Eva", "Heinz", , "eva.heinz7@gmail.com", role = c("aut", "cre"),
