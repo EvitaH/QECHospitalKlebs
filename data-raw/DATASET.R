@@ -2,7 +2,7 @@
 
 #Reading in the mapping trees reformatted to SNP distance branches using pyjar.
 
-library(QECHospitalKlebs)
+
 library(ape)
 library(phytools)
 library(devtools)
