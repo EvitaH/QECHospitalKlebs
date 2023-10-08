@@ -47,7 +47,6 @@ Suggests:
     stringr,
     tidyr,
     tidyverse,
-    usethis,
     wesanderson
 VignetteBuilder: knitr
 URL: https://github.com/EvitaH/QECHospitalKlebs, https://evitah.github.io/QECHospitalKlebs/

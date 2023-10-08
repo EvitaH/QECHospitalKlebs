@@ -2,9 +2,10 @@
 
 #Reading in the mapping trees reformatted to SNP distance branches using pyjar.
 
+library(QECHospitalKlebs)
 library(ape)
 library(phytools)
-library(usethis)
+library(devtools)
 
 
 Kp2tree <- ape::read.tree(here("data-raw/mapping_trees/Kp2pyj2.joint.tre"))

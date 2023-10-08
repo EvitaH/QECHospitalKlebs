@@ -1,14 +1,14 @@
 
 ## code to prepare QC plots and filter clean lanes for subsequent analyses
 
-
+library(QECHospitalKlebs)
 library(tidyverse)
 library(here)
 library(ggplot2)
 library(reshape2)
 library(patchwork)
 library(readxl)
-library(usethis)
+library(devtools)
 
 '%nin%' <- Negate('%in%')
 
