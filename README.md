@@ -51,7 +51,19 @@ are bundled with the package. To install the package from GitHub:
 
 ``` r
 #install.packages("devtools")
-#devtools::install_github("https://github.com/EvitaH/QECHospitalKlebs")
+library(devtools)
+#> Loading required package: usethis
+devtools::install_github("https://github.com/EvitaH/QECHospitalKlebs")
+#> Downloading GitHub repo EvitaH/QECHospitalKlebs@HEAD
+#> ── R CMD build ─────────────────────────────────────────────────────────────────
+#> * checking for file ‘/private/var/folders/ry/z_1h27z57pn_m9xq58wdc3zd3vx860/T/RtmpMldb5p/remotes56161961ae1a/EvitaH-QECHospitalKlebs-f52ac8f/DESCRIPTION’ ... OK
+#> * preparing ‘QECHospitalKlebs’:
+#> * checking DESCRIPTION meta-information ... OK
+#> * checking for LF line-endings in source and make files and shell scripts
+#> * checking for empty or unneeded directories
+#> * building ‘QECHospitalKlebs_0.0.0.9000.tar.gz’
+#> Warning: invalid uid value replaced by that for user 'nobody'
+#> Warning: invalid gid value replaced by that for user 'nobody'
 ```
 
 The various data objects are described in the [pkgdown]() site for this
@@ -71,10 +83,12 @@ are available as package vignettes; these can be built when downloading
 the package by running:
 
 ``` r
-#devtools::install_github(
-#  "https://github.com/EvitaH/QECHospitalKlebs", 
-#  build_vignettes = TRUE, 
-#  dependencies = TRUE )
+devtools::install_github(
+  "https://github.com/EvitaH/QECHospitalKlebs", 
+  build_vignettes = TRUE, 
+  dependencies = TRUE )
+#> Skipping install of 'QECHospitalKlebs' from a github remote, the SHA1 (f52ac8f4) has not changed since last install.
+#>   Use `force = TRUE` to force installation
 ```
 
 The `dependencies = TRUE` option will install all the packages necessary

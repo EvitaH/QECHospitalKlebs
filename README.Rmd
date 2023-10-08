@@ -44,7 +44,8 @@ If you just want the data, then all the data to replicate the analysis are bundl
 
 ```{r}
 #install.packages("devtools")
-#devtools::install_github("https://github.com/EvitaH/QECHospitalKlebs")
+library(devtools)
+devtools::install_github("https://github.com/EvitaH/QECHospitalKlebs")
 ```
 
 
@@ -60,10 +61,10 @@ The analysis scripts to reproduce tables and figures for each manuscript are ava
 
 
 ```{r analysis scripts}
-#devtools::install_github(
-#  "https://github.com/EvitaH/QECHospitalKlebs", 
-#  build_vignettes = TRUE, 
-#  dependencies = TRUE )
+devtools::install_github(
+  "https://github.com/EvitaH/QECHospitalKlebs", 
+  build_vignettes = TRUE, 
+  dependencies = TRUE )
 ```
 
 The `dependencies = TRUE` option will install all the packages necessary to run the vignette.
