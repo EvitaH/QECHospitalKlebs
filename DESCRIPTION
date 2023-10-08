@@ -21,6 +21,7 @@ Suggests:
     castor,
     caTools,
     cowplot,
+    devtools,
     ggalt,
     ggnewscale,
     ggplot2,
