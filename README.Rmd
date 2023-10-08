@@ -42,15 +42,17 @@ Paper currently available as pre-print [here](https://www.medrxiv.org/content/10
 
 If you just want the data, then all the data to replicate the analysis are bundled with the package. To install the package from GitHub:
 
-``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+```{r}
+#install.packages("devtools")
+#devtools::install_github("https://github.com/EvitaH/QECHospitalKlebs")
 ```
 
-The various data objects are described in the [pkgdown]() site for this package [here](index.html), and available via R in the usual way. They are all lazy loaded so will be available for use immediately.
+
+The various data objects are described in the [pkgdown]() site for this package [here](), and available via R in the usual way. They are all lazy loaded so will be available for use immediately.
 
 ### Whole genome sequence accession numbers and metadata
 
-Reads from all isolates sequenced as part of this study have been depositied in the European Nucleotide Archive (ENA); accession numbers are available in the `_metadata` data frame, available on installing the package as above; as well as in Table S1 from the publication.
+Reads from all isolates sequenced as part of this study have been deposited in the European Nucleotide Archive (ENA); accession numbers are available in the Table S1 from the publication.
 
 ### Analysis scripts
 
@@ -58,10 +60,10 @@ The analysis scripts to reproduce tables and figures for each manuscript are ava
 
 
 ```{r analysis scripts}
-devtools::install_github(
-#  "https://github.com/     ", 
-  build_vignettes = TRUE, 
-  dependencies = TRUE )
+#devtools::install_github(
+#  "https://github.com/EvitaH/QECHospitalKlebs", 
+#  build_vignettes = TRUE, 
+#  dependencies = TRUE )
 ```
 
 The `dependencies = TRUE` option will install all the packages necessary to run the vignette.

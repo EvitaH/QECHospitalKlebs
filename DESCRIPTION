@@ -39,13 +39,18 @@ Suggests:
     RColorBrewer,
     readr,
     readxl,
+    reshape2,
     rmarkdown,
     rPinecone,
     splitstackshape,
     stringr,
+    tidyr,
     tidytree (== 0.4.2),
     tidyverse,
     wesanderson
 VignetteBuilder: knitr
-URL: https://github.com/EvitaH/QECHospitalKlebs
+URL: https://github.com/EvitaH/QECHospitalKlebs, https://evitah.github.io/QECHospitalKlebs/
 BugReports: https://github.com/EvitaH/QECHospitalKlebs/issues
+Depends: 
+    R (>= 2.10)
+LazyData: true
