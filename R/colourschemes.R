@@ -1,3 +1,5 @@
+library(usethis)
+
 main_ST_col <- c("ST101" = "#5B859E", "ST14" = "#395B7B", "ST15" = "#26405D", "ST1552" = "#566C51", "ST17" = "#637E4A", "ST25" = "#336547", "ST29" = "#576952", "ST307" = "#C2856A", "ST340" = "#CB7456", "ST35" = "#B15232", "ST36" = "#C16F5F", "ST37" = "#CF8A8B", "ST39" = "#995556", "ST391" = "#7B3B41", "ST45" = "#9A6A81", "ST48" = "#967192", "ST584" = "#69476A", "ST607" = "#856454", "ST86" = "#CBAB49", "other" = "lightgrey")
 usethis::use_data(main_ST_col, overwrite = TRUE)
 

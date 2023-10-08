@@ -4,6 +4,7 @@
 
 library(ape)
 library(phytools)
+library(usethis)
 
 
 Kp2tree <- ape::read.tree(here("data-raw/mapping_trees/Kp2pyj2.joint.tre"))
