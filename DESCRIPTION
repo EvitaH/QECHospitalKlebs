@@ -46,7 +46,6 @@ Suggests:
     splitstackshape,
     stringr,
     tidyr,
-    tidytree (== 0.4.2),
     tidyverse,
     wesanderson
 VignetteBuilder: knitr
