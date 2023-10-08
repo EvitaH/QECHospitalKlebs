@@ -30,7 +30,7 @@ Suggests:
     lavaan,
     magick,
     MetBrewer,
-    nationalparkcolors,
+    nationalparkcolors (>= 0.1.0),
     openxlsx,
     pals,
     patchwork,
@@ -41,6 +41,7 @@ Suggests:
     readxl,
     reshape2,
     rmarkdown,
+    rpinecone (>= 0.1.0),
     rPinecone,
     splitstackshape,
     stringr,
@@ -54,3 +55,6 @@ BugReports: https://github.com/EvitaH/QECHospitalKlebs/issues
 Depends: 
     R (>= 2.10)
 LazyData: true
+Remotes:  
+    katiejolly/nationalparkcolors,
+    alexwailan/rpinecone
