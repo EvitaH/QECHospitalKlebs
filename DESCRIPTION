@@ -58,3 +58,5 @@ LazyData: true
 Remotes: 
     katiejolly/nationalparkcolors,
     alexwailan/rpinecone
+    bioc::3.18/ggtree
+
