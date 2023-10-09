@@ -97,20 +97,8 @@
 </h2>
 <p>If you just want the data, then all the data to replicate the analysis are bundled with the package. To install the package from GitHub:</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="co">#install.packages("devtools")</span></span>
-<span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://devtools.r-lib.org/" class="external-link">devtools</a></span><span class="op">)</span></span>
-<span><span class="co">#&gt; Loading required package: usethis</span></span>
-<span><span class="fu">devtools</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html" class="external-link">install_github</a></span><span class="op">(</span><span class="st">"https://github.com/EvitaH/QECHospitalKlebs"</span><span class="op">)</span></span>
-<span><span class="co">#&gt; Downloading GitHub repo EvitaH/QECHospitalKlebs@HEAD</span></span>
-<span><span class="co">#&gt; ── R CMD build ─────────────────────────────────────────────────────────────────</span></span>
-<span><span class="co">#&gt; * checking for file ‘/private/var/folders/ry/z_1h27z57pn_m9xq58wdc3zd3vx860/T/RtmpMldb5p/remotes56161961ae1a/EvitaH-QECHospitalKlebs-f52ac8f/DESCRIPTION’ ... OK</span></span>
-<span><span class="co">#&gt; * preparing ‘QECHospitalKlebs’:</span></span>
-<span><span class="co">#&gt; * checking DESCRIPTION meta-information ... OK</span></span>
-<span><span class="co">#&gt; * checking for LF line-endings in source and make files and shell scripts</span></span>
-<span><span class="co">#&gt; * checking for empty or unneeded directories</span></span>
-<span><span class="co">#&gt; * building ‘QECHospitalKlebs_0.0.0.9000.tar.gz’</span></span>
-<span><span class="co">#&gt; Warning: invalid uid value replaced by that for user 'nobody'</span></span>
-<span><span class="co">#&gt; Warning: invalid gid value replaced by that for user 'nobody'</span></span></code></pre></div>
+<code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span><span class="st">"devtools"</span><span class="op">)</span></span>
+<span><span class="fu">devtools</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html" class="external-link">install_github</a></span><span class="op">(</span><span class="st">"https://github.com/EvitaH/QECHospitalKlebs"</span><span class="op">)</span></span></code></pre></div>
 <p>The various data objects are described in the <a href="">pkgdown</a> site for this package <a href="">here</a>, and available via R in the usual way. They are all lazy loaded so will be available for use immediately.</p>
 <div class="section level3">
 <h3 id="whole-genome-sequence-accession-numbers-and-metadata">Whole genome sequence accession numbers and metadata<a class="anchor" aria-label="anchor" href="#whole-genome-sequence-accession-numbers-and-metadata"></a>
@@ -125,9 +113,7 @@
 <code class="sourceCode R"><span><span class="fu">devtools</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html" class="external-link">install_github</a></span><span class="op">(</span></span>
 <span>  <span class="st">"https://github.com/EvitaH/QECHospitalKlebs"</span>, </span>
 <span>  build_vignettes <span class="op">=</span> <span class="cn">TRUE</span>, </span>
-<span>  dependencies <span class="op">=</span> <span class="cn">TRUE</span> <span class="op">)</span></span>
-<span><span class="co">#&gt; Skipping install of 'QECHospitalKlebs' from a github remote, the SHA1 (f52ac8f4) has not changed since last install.</span></span>
-<span><span class="co">#&gt;   Use `force = TRUE` to force installation</span></span></code></pre></div>
+<span>  dependencies <span class="op">=</span> <span class="cn">TRUE</span> <span class="op">)</span></span></code></pre></div>
 <p>The <code>dependencies = TRUE</code> option will install all the packages necessary to run the vignette.</p>
 <p>Most analyses performed for the manuscript are straightforward, but please note that running rPinecone might take a while on the larger data sets (especially the <em>K. pneumoniae subsp. pneumoniae</em>).</p>
 </div>
