@@ -37,6 +37,7 @@ Suggests:
     patchwork,
     phylotools,
     phytools,
+    prettydoc,
     RColorBrewer,
     readr,
     readxl,
@@ -48,6 +49,7 @@ Suggests:
     stringr,
     tidyr,
     tidyverse,
+    treeio,
     wesanderson
 VignetteBuilder: knitr
 URL: https://github.com/EvitaH/QECHospitalKlebs, https://evitah.github.io/QECHospitalKlebs/
@@ -57,4 +59,7 @@ Depends:
 LazyData: true
 Remotes: 
     katiejolly/nationalparkcolors,
-    alexwailan/rpinecone
+    alexwailan/rpinecone,
+    bioc::release/ggtree,
+    bioc::release/treeio
+
