@@ -49,6 +49,7 @@ Suggests:
     stringr,
     tidyr,
     tidyverse,
+    treeio,
     wesanderson
 VignetteBuilder: knitr
 URL: https://github.com/EvitaH/QECHospitalKlebs, https://evitah.github.io/QECHospitalKlebs/
@@ -59,5 +60,6 @@ LazyData: true
 Remotes: 
     katiejolly/nationalparkcolors,
     alexwailan/rpinecone,
-    bioc::release/ggtree
+    bioc::release/ggtree,
+    bioc::release/treeio
 
