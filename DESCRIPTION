@@ -57,6 +57,7 @@ BugReports: https://github.com/EvitaH/QECHospitalKlebs/issues
 Depends: 
     R (>= 2.10)
 LazyData: true
+biocViews:
 Remotes: 
     katiejolly/nationalparkcolors,
     alexwailan/rpinecone,
