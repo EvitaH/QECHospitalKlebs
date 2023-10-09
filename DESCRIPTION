@@ -60,6 +60,6 @@ LazyData: true
 Remotes: 
     katiejolly/nationalparkcolors,
     alexwailan/rpinecone,
-    bioc::release/ggtree,
-    bioc::release/treeio
+    bioc::ggtree,
+    bioc::treeio
 
