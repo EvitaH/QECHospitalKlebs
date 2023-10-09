@@ -42,9 +42,8 @@ Paper currently available as pre-print [here](https://www.medrxiv.org/content/10
 
 If you just want the data, then all the data to replicate the analysis are bundled with the package. To install the package from GitHub:
 
-```{r}
-#install.packages("devtools")
-library(devtools)
+```r
+install.packages("devtools")
 devtools::install_github("https://github.com/EvitaH/QECHospitalKlebs")
 ```
 
@@ -60,7 +59,7 @@ Reads from all isolates sequenced as part of this study have been deposited in t
 The analysis scripts to reproduce tables and figures for each manuscript are available as package vignettes; these can be built when downloading the package by running:
 
 
-```{r analysis scripts}
+```r
 devtools::install_github(
   "https://github.com/EvitaH/QECHospitalKlebs", 
   build_vignettes = TRUE, 
