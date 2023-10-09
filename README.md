@@ -3,6 +3,8 @@
 
 # QECHospitalKlebs
 
+[![DOI](https://zenodo.org/badge/701648680.svg)](https://zenodo.org/badge/latestdoi/701648680)
+
 <!-- badges: start -->
 <!-- badges: end -->
 
